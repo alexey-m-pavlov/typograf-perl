@@ -22,7 +22,7 @@ $VERSION = '1.0';
 #		use ArtLebedevStudio::RemoteTypograf;
 #		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
 #		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
-#		print $remoteTypograf->ProcessText ("\"Вы все еще кое-как верстаете в \"Ворде\"?\n - Тогда мы идем к вам!\"");
+#		print $remoteTypograf->ProcessText ("\"Р’С‹ РІСЃРµ РµС‰Рµ РєРѕРµ-РєР°Рє РІРµСЂСЃС‚Р°РµС‚Рµ РІ \"Р’РѕСЂРґРµ\"?\n - РўРѕРіРґР° РјС‹ РёРґРµРј Рє РІР°Рј!\"");
 
 use LWP::UserAgent;
 
