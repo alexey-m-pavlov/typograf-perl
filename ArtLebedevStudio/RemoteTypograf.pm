@@ -128,7 +128,7 @@ sub SOAPProcessText
 SOAPBODY
 
 	my $userAgent = LWP::UserAgent->new;
-	my $request = HTTP::Request->new ('POST' => 'http://typograf.artlebedev.ru/webservices/typograf.asmx');
+	my $request = HTTP::Request->new ('POST' => 'https://typograf.artlebedev.ru/webservices/typograf.asmx');
 	$request->content ($SOAPBody);
 	my $response = $userAgent->request ($request);
 
