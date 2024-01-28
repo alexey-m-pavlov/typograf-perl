@@ -22,7 +22,7 @@ $VERSION = '1.0';
 #		use ArtLebedevStudio::RemoteTypograf;
 #		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
 #		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
-#		print $remoteTypograf->ProcessText ("\"Âû âñå åùå êîå-êàê âåðñòàåòå â \"Âîðäå\"?\n - Òîãäà ìû èäåì ê âàì!\"");
+#		print $remoteTypograf->ProcessText ("\"Ð’Ñ‹ Ð²ÑÐµ ÐµÑ‰Ðµ ÐºÐ¾Ðµ-ÐºÐ°Ðº Ð²ÐµÑ€ÑÑ‚Ð°ÐµÑ‚Ðµ Ð² \"Ð’Ð¾Ñ€Ð´Ðµ\"?\n - Ð¢Ð¾Ð³Ð´Ð° Ð¼Ñ‹ Ð¸Ð´ÐµÐ¼ Ðº Ð²Ð°Ð¼!\"");
 
 use LWP::UserAgent;
 
@@ -128,7 +128,7 @@ sub SOAPProcessText
 SOAPBODY
 
 	my $userAgent = LWP::UserAgent->new;
-	my $request = HTTP::Request->new ('POST' => 'http://typograf.artlebedev.ru/webservices/typograf.asmx');
+	my $request = HTTP::Request->new ('POST' => 'https://typograf.artlebedev.ru/webservices/typograf.asmx');
 	$request->content ($SOAPBody);
 	my $response = $userAgent->request ($request);
 
