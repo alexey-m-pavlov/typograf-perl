@@ -1,7 +1,7 @@
 package ArtLebedevStudio::RemoteTypograf;
 
 use vars qw ($VERSION);
-$VERSION = '1.0';
+$VERSION = '1.0.1';
 
 #	ArtLebedevStudio::RemoteTypograf.pm
 #	Perl-implementation of ArtLebedevStudio.RemoteTypograf class (web-service client)
