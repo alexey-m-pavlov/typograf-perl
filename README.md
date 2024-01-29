@@ -10,7 +10,7 @@ You can read more about the principles of screen typography in [§ 62](https://w
 
 Do you want something special from Typographer? [Email us](mailto:tema@tema.ru?subject=typograf_wish_list).
 
-Typograf homepage: http://typograf.artlebedev.ru/
+Typograf homepage: https://www.artlebedev.ru/typograf/
 
 Web-service address: http://typograf.artlebedev.ru/webservices/typograf.asmx
 
