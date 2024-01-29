@@ -1,15 +1,15 @@
 package ArtLebedevStudio::RemoteTypograf;
 
 use vars qw ($VERSION);
-$VERSION = '1.0';
+$VERSION = '1.0.1';
 
 #	ArtLebedevStudio::RemoteTypograf.pm
 #	Perl-implementation of ArtLebedevStudio.RemoteTypograf class (web-service client)
 #	
 #	Copyright (c) Art. Lebedev Studio | http://www.artlebedev.ru/
 #
-#	Typograf homepage: http://typograf.artlebedev.ru/
-#	Web-service address: http://typograf.artlebedev.ru/webservices/typograf.asmx
+#	Typograf homepage: https://www.artlebedev.ru/typograf/
+#	Web-service address: https://typograf.artlebedev.ru/webservices/typograf.asmx
 #	WSDL-description: http://typograf.artlebedev.ru/webservices/typograf.asmx?WSDL
 #	
 #	Default charset: UTF-8
@@ -20,10 +20,10 @@ $VERSION = '1.0';
 #
 #	Example:
 #		use ArtLebedevStudio::RemoteTypograf;
-#		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
-#		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
-#		print $remoteTypograf->ProcessText ("\"Вы все еще кое-как верстаете в \"Ворде\"?\n - Тогда мы идем к вам!\"");
-
+#		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
+#		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
+#		print $remoteTypograf->ProcessText ("\"Are you still doing some layout work in \"Word\"?\n - Then we go to you!\"");
+ 
 use LWP::UserAgent;
 
 sub new

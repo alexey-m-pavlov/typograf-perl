@@ -15,3 +15,11 @@ Typograf homepage: https://www.artlebedev.ru/typograf/
 Web-service address: http://typograf.artlebedev.ru/webservices/typograf.asmx
 
 WSDL-description: http://typograf.artlebedev.ru/webservices/typograf.asmx?WSDL
+
+## Example:
+``` perl
+use ArtLebedevStudio::RemoteTypograf;
+my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
+#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
+print $remoteTypograf->ProcessText ("\"Are you still doing some layout work in \"Word\"?\n - Then we go to you!\"");
+```
