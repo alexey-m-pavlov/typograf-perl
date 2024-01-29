@@ -20,8 +20,8 @@ $VERSION = '1.0.1';
 #
 #	Example:
 #		use ArtLebedevStudio::RemoteTypograf;
-#		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
-#		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
+#		my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf();
+#		#my $remoteTypograf = new ArtLebedevStudio::RemoteTypograf ('Windows-1251');
 #		print $remoteTypograf->ProcessText ("\"Are you still doing some layout work in \"Word\"?\n - Then we go to you!\"");
  
 use LWP::UserAgent;
